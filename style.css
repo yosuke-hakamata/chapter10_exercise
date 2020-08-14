@@ -55,6 +55,25 @@ h3{
 	margin-top: 15px;
 	margin-bottom: 5px;
 }
-p{
-	margin
+
+/*Mobile
+------------------------------------------------------------*/
+@media screen and (max-width: 769px){
+	.wrapper{
+		display: inline-block;
+		width: 100%;
+	}
+	.box{
+		margin:0 auto;
+		width: 90%;
+	}
+	.box:nth-child(2,3){
+		margin-top: 20px;
+	}
+	.img{
+		width: 100%;
+	}
+	.content{
+		padding: 10px 0;
+	}
 }
